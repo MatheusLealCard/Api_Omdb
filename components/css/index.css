@@ -1,0 +1,112 @@
+:root {
+    margin: 2vh;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    height: 10vh;
+    border-radius: 2vh;
+}
+
+#HeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#HeaderFormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#LogoHeader img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}
+#Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Search input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    position: relative;
+}
+
+#Button button {
+    position: relative;
+    cursor: pointer;
+}
+
+#Button button:hover {
+    transform: scale(1.05);
+}
+
+/* Main */
+
+#MainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    gap: 10vh;
+}
+
+#CardsMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#CardsMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    flex-direction: column;
+}
+
+#CardsMain2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    flex-direction: column;
+}
+
+p {
+    font-size: 2vh;
+}
+
+img {
+    height: 30vh;
+}
+
+
